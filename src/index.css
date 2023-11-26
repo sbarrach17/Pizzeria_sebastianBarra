@@ -18,7 +18,7 @@ h3 {
     font-weight: 500;
     font-style: italic;
 }
-h2{
+h2 {
     font-size: 2rem;
     font-weight: 500;
     font-style: italic;
@@ -34,6 +34,11 @@ p {
     font-weight: 400;
     font-style: italic;
 }
+.list-group-item {
+    margin: 0;
+    padding: 0;
+}
+
 .card {
     text-transform: capitalize;
     border: PowderBlue 5px double;
@@ -46,7 +51,7 @@ p {
 .card:hover {
     box-shadow: 2px 2px 10px rgba(0, 2, 138, 0.2);
 }
-.NotFound{
+.NotFound {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -54,12 +59,12 @@ p {
     text-align: center;
     padding: 3rem;
 }
-.notFoundHeader{
+.notFoundHeader {
     font-size: 2rem;
     font-weight: 500;
     font-style: inherit;
 }
-.notFoundSubheader{
+.notFoundSubheader {
     font-weight: 500;
     font-size: 1rem;
     font-style: italic;
@@ -129,8 +134,6 @@ p {
     color: red;
 } */
 
-
-
 /* .card-img-top {
     cursor: pointer;
     border-radius: 5px;
@@ -143,8 +146,6 @@ p {
 .btn-b {
     border-bottom-right-radius: 20px;
 } */
-
-
 
 /* .list {
     display: flex;
@@ -183,8 +184,6 @@ p {
     display: flex;
     gap: 0.5em;
 } */
-
-
 
 /* .img-fluid {
     border-top-left-radius: 17px;
