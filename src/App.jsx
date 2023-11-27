@@ -8,6 +8,7 @@ import PizzaDetails from "./components/PizzaDetails";
 import Carro from "./views/Carro";
 import ImageModal from "./components/ImageModal";
 import NotFound from "./views/NotFound";
+import ContactPage from "./views/ContactPage";
 
 function App() {
     const [isModalOpen, setIsModalOpen] = useState(false);
@@ -46,6 +47,7 @@ function App() {
                     <Route path="/" element={<Home />} />
                     <Route path="/pizza/:name" element={<PizzaDetails />} />
                     <Route path="/carro" element={<Carro />} />
+                    <Route path="/contacto" element={<ContactPage />} />
                     <Route path="*" element={<NotFound />} />
                 </Routes>
             </MyContext.Provider>

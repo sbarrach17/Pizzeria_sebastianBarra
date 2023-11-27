@@ -1,6 +1,9 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import "../assets/Css/Navbar.css";
+import { FaCartPlus } from "react-icons/fa";
+import { MdContactSupport } from "react-icons/md";
+import { MdRestaurantMenu } from "react-icons/md";
 
 const Navbar = () => {
     return (
@@ -28,20 +31,26 @@ const Navbar = () => {
                 </button>
 
                 <div
-                    className="collapse navbar-collapse justify-content-end"
+                    className="collapse navbar-collapse justify-content-end align-content-center"
                     id="navbarNav"
                 >
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <NavLink to="/" activeClassName="active">
-                                <img src="/icon/iconMenu1.png" alt="" />
+                                <MdRestaurantMenu className="icon text-warning" />{" "}
                                 Menú
                             </NavLink>
                         </li>
                         <li className="nav-item">
                             <NavLink to="/carro" activeClassName="active">
-                                <img src="/icon/iconCart1.png" alt="" />
+                                <FaCartPlus className="icon text-success" />{" "}
                                 Carro
+                            </NavLink>
+                        </li>
+                        <li className="nav-item">
+                            <NavLink to="/contacto" activeClassName="active">
+                                <MdContactSupport className="icon text-primary" />{" "}
+                                Contacto
                             </NavLink>
                         </li>
                     </ul>

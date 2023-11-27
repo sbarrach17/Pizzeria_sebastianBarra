@@ -9,7 +9,6 @@ body {
     background-image: url("../img/fondo3.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
-    /* background-size: 100% 100%; */
     background-size: cover;
 }
 h4,
@@ -40,7 +39,7 @@ p {
 }
 
 .card {
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     border: PowderBlue 5px double;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
@@ -54,7 +53,6 @@ p {
 .NotFound {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
     text-align: center;
     padding: 3rem;
@@ -69,7 +67,9 @@ p {
     font-size: 1rem;
     font-style: italic;
 }
-
+.icon {
+    font-size: 24px;
+}
 
 /* .modal-container {
     border-radius: 10px;

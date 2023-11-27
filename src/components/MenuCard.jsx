@@ -19,14 +19,14 @@ const MenuCard = ({ pizza }) => {
     return (
         <div key={pizza.name} className="card" style={{ width: "16em" }}>
             <img src={pizza.img} className="card-img-top" alt={pizza.name} />
-            <div className="card-body">
-                <h4 className="card-title">{pizza.name}</h4>
+            <div className="card-body ">
+                <h4 className="card-title text-capitalize">{pizza.name}</h4>
                 <p className="card-text"> Ingredientes</p>
             </div>
             <ul className="list-group list-group-flush">
                 {pizza.ingredients.map((ingredient, i) => (
                     <li className="list-group-item" key={i}>
-                        <p>🍕 {ingredient} </p>
+                        <p className="text-capitalize">🍕 {ingredient} </p>
                     </li>
                 ))}
             </ul>

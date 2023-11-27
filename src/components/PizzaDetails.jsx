@@ -32,12 +32,16 @@ const PizzaDetails = () => {
                     </div>
                     <div className="col-md-6">
                         <div className="card-body">
-                            <h3 className="card-title">{pizza.name}</h3>
+                            <h3 className="card-title text-capitalize">
+                                {pizza.name}
+                            </h3>
                             <p className="card-text">{pizza.desc}</p>
                             <ul className="list-group list-group-flush">
                                 {pizza.ingredients.map((ingredient, i) => (
                                     <li className="list-group-item" key={i}>
-                                        <p>🍕 {ingredient} </p>
+                                        <p className="text-capitalize">
+                                            🍕 {ingredient}{" "}
+                                        </p>
                                     </li>
                                 ))}
                             </ul>
