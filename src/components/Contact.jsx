@@ -48,7 +48,7 @@ const Contact = () => {
 
             <button
                 type="button"
-                classna="btn btn-danger"
+                className="btn btn-danger"
                 onClick={handleEnviar}
             >
                 Enviar
