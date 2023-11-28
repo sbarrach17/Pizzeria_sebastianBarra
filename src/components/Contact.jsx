@@ -1,5 +1,5 @@
 import React from "react";
-import '../assets/Css/Contact.css'
+import "../assets/Css/Contact.css";
 import { IoLogoWhatsapp } from "react-icons/io";
 import { MdLocationOn } from "react-icons/md";
 
@@ -15,7 +15,7 @@ const Contact = () => {
                     <div className="mb-3">
                         <label
                             htmlFor="exampleFormControlInput1"
-                            className="form-label fs-5 mt-3"
+                            className="form-label fs-5 mt-3 titleContact"
                         >
                             Correo Electrónico
                         </label>
@@ -33,7 +33,7 @@ const Contact = () => {
                     <div className="mb-4">
                         <label
                             htmlFor="exampleFormControlTextarea1"
-                            className="form-label fs-5"
+                            className="form-label fs-5 titleContact"
                         >
                             Déjanos tu comentario
                         </label>
@@ -46,16 +46,24 @@ const Contact = () => {
                 </div>
             </div>
 
-            <button type="button" class="btn btn-danger" onClick={handleEnviar}>
+            <button
+                type="button"
+                classna="btn btn-danger"
+                onClick={handleEnviar}
+            >
                 Enviar
             </button>
             <address className="pt-3">
-                <p className="add"> <IoLogoWhatsapp className="icon text-success" />
-                +56988763211</p>
-               
-                <p className="add"><MdLocationOn className="icon text-danger" /> Barrio Italia, Providencia</p>
-                
-               
+                <p className="add">
+                    {" "}
+                    <IoLogoWhatsapp className="icon text-success" />
+                    +56988763211
+                </p>
+
+                <p className="add">
+                    <MdLocationOn className="icon text-danger" /> Barrio Italia,
+                    Providencia
+                </p>
             </address>
         </div>
     );

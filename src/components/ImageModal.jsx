@@ -13,7 +13,7 @@ const ImageModal = ({ isOpen, onClose }) => {
             className="custom-modal"
             overlayClassName="custom-overlay"
         >
-            <img src="/img/Anuncio.png" alt="Anuncio Black Friday" />
+            <img src="/img/Anuncio1.png" alt="Anuncio Black Friday" />
             <button className="btn btn-sm btn-danger" onClick={onClose}>
                 X
             </button>

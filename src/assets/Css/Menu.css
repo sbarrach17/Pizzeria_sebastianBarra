@@ -11,7 +11,7 @@
 
 .card-img-top {
     cursor: pointer;
-    border-radius: 5px;
+    /* border-radius: 5px; */
     border-top-left-radius: 17px;
 }
 .btn-group {

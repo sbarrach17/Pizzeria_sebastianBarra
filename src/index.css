@@ -6,7 +6,7 @@
 }
 body {
     font-family: Arial, sans-serif;
-    background-image: url("../img/fondo3.jpg");
+    background-image: url("../img/fondo5.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -40,7 +40,8 @@ p {
 
 .card {
     /* text-transform: capitalize; */
-    border: PowderBlue 5px double;
+    /* border: PowderBlue 5px double; */
+    border: rgb(48, 194, 213) 5px double;
     border-top-left-radius: 20px;
     border-bottom-right-radius: 20px;
     width: 100%;
